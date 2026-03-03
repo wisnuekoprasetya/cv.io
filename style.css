@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root{
+  --color-1: #6B9080;
+  --text-color1: #f0f0f0;
+  --text-color2: #EAF4F4;
+  --bg-color1: #A4C3B2;
+  --bg-color2: #CCE3DE;
+  --bg-color3: #F6FFF8;
+
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+html{
+  font-size: 12pt;
+  font-family: Poppins, Segoe UI, Tahoma, sans-serif;
+}
+section{
+  padding: 0vh 7vh 3vh 7vh;
+}
+.title h1{
+  padding: 2vh 0 3vh 0;
+  color:var(--text-color1);
+  border-bottom: var(--bg-color3) solid;
+  text-align: left;
+  margin-bottom: 3vh;
+}
+.logo{
+padding: 0 4vh;
+font-size: 3vh;
+cursor:pointer;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  padding: 2vh 0 3vh;
+  background-color:var(--color-1);
+  color:#f0f0f0;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+}
+.menu{
+  display: flex;
+  gap: 2vh;
+  padding: 0 4vh;
+}
+
+#hero{
+  display: flex;
+  gap: 2vh;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.pasfoto{
+  padding: 15vh;
+  background: var(--color-1);
+  display:inline-flex;
+  border-radius: 15vh 0 15vh 0;
+}
+button{
+  width: 12vh;
+  padding: 1vh;
+  margin: 0 2vh;
+  background:var(--bg-color1);
+  border: none;
+  border-radius: 1vh;
+}
+button i{
+  display: none;
+}
+
+#profile{
+  background: var(--bg-color1);
+}
+
+.bio {
+display: flex;
+gap: 4vh;
+padding: 0 20%;
+align-items: center;
+}
+
+.bio button{
+  width: max-content;
+  border-bottom: var(--bg-color2) solid ;
+  background-color: var(--color-1);
+  color: var(--text-color2);
+  margin-top: 3vh;
+  padding: 2vh 1vh;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  
+}
+
+#keahlian{
+background: var(--bg-color1);
+}
+.card1{
+  display: flex;
+  gap: 3vh;
+  max-width: 55%;
+  align-items: center;
+  position: relative;
+  right: -25%;
+  z-index: 1;
+  padding-bottom: 10vh;
+}
+
+.card1 p{
+  padding: 0 3vh;
+  background-color: var(--text-color2);
+  border-radius: 0 2vh 0 1vh;
+}
+.admin{
+  padding: 15vh;
+  border-radius: 100% 5% 0 5%;
+  background-color: var(--bg-color3);
+  background-image:url(./asset/admin.jpg);
+  background-size: 35vh;
+  box-shadow: 8px 12px 0 0 rgba(0,0,0,0.2);
+}
+.backend{
+  padding: 15vh;
+  border-radius: 0 5% 100% 5% ;
+  background-color: var(--bg-color3);
+  background-image: url(/asset/frontend.jpg);
+  background-size: 50vh;
+  background-position: -10vh;
+  box-shadow: 8px 12px 0 0 rgba(0,0,0,0.2);
+}
+
+#portofolio{
+  background: var(--bg-color1);
+}
+
+.card{
+  gap: 3vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.card-item {
+  width: 30vh;
+  height: 40vh;
+  background-color: var(--bg-color2);
+  display: flexbox;
+}
+
+.kontrol{
+  display: flex;
+  justify-content: space-around;
+  gap: 6vh;
+  height: auto;
+  position: relative;
+  top: -20vh;
+}
+
+.kiri{
+  background-color: var(--bg-color2);
+  width: 4vh;
+  height: 4vh;
+  text-align: center;
+  cursor: pointer;
+}
+
+.kanan{
+  background-color: var(--bg-color2);
+  width: 4vh;
+  height: 4vh;
+  text-align: center;
+  cursor: pointer;
+}
+
+
+footer{
+  display: flex;
+flex-wrap: wrap;
+padding: 7vh;
+justify-content: space-between;
+}
+.iconkontak{
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+.iconkontak i{
+  padding: 2vh;
+  font-size: 4vh;
+}
+
+
+
